@@ -1,15 +1,15 @@
-undefined + 1; // 
-'true' == true //
-false == 'false' // 
-null == '' // 
-3 ** (9 / 3); // 
-!!'false' == !!'true' //
-0 || '0' && 1 //
-1 < 2 < 3 // 
-'foo'+ + +'bar' // 
-3 ** 2 / 3; // 
-1 < 2 > 3 //
-(+null == false) < 1; //
-false && true || true //
-false && (true || true); //
-(+null == false) < 1 ** 5; //
+undefined + 1; // ??????? NaN 
+console.log('true' == true) //????  я думав буде 'True'// Bolean 'false'
+false == 'false' //  тут мабуть 'True'щас чекну//НЕ FALSE // Bolean 'false'
+null == '' // bolean 'false'
+3 ** (9 / 3); // number '27' 
+!!'false' == !!'true' // bolean 'true' ??
+0 || '0' && 1 // number '1'
+1 < 2 < 3 // bolean 'true'
+'foo'+ + +'bar' // string 'FooNan'
+3 ** 2 / 3; // number '3' 
+1 < 2 > 3 // bolean 'false'
+console.log((+null == false) < 1) // bolean 'false'
+false && true || true //  bolean 'false'
+false && (true || true); //bolean 'false'
+(+null == false) < 1 ** 5; // bolean 'false'
