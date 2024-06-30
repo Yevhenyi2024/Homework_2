@@ -1,15 +1,16 @@
-'number' + 23 + 32 // string 'number2332'
-41 + 1 + 'number' // string '42null1'
-null + 1 // number '1'
-'five' + + 'two' // NaN
-console.log( 2 && 7 )  // number '7' ??????
-+'40' + +'2'; //  number '42'
-'10' - 5 === 6; // boolean 'false'
-true + false // ??? number '1'
-'4px' - 3 // NaN  
-'4' - 3 //number '1'
-console.log('2' + 3 ** 2) // number '29'
-12 / '6' //  number '2'
-23 + 42 + 'number' // string  '65number'
-'10' + (5 === 6); // string '10(false)'
-'number' + 15 + 3 //string 'number18'
+console.log(typeof ('number' + 23 + 32)); // string 'number2332'
+console.log(typeof (41 + 1 + 'number')) ;// string '42number'
+console.log(typeof (null + 1) );// number '1'
+console.log(typeof ('five' + + 'two')); // string FiveNaN
+console.log(typeof (2 && 7));  // number '7' 
+console.log(typeof (+'40' + +'2')); //  number '42'
+console.log(typeof ('10' - 5 === 6)); // boolean 'false'
+console.log(typeof (true + false ));//  number '1'
+console.log(typeof ('4px' - 3 ));// namber 'NaN'  
+console.log(typeof ('4' - 3 ));//number '1'
+console.log(typeof ('2' + 3 ** 2)); // number '29'
+console.log(typeof (12 / '6')); //  number '2'
+console.log(typeof (23 + 42 + 'number')); // string  '65number'
+console.log(typeof ('10' + 5 === 6)); // bolean 'false'
+console.log(typeof ('number' + 15 + 3)); //string 'number153'
+console.log()
